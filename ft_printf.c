@@ -6,7 +6,7 @@
 /*   By: fcaquard <fcaquard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/18 16:59:57 by fcaquard          #+#    #+#             */
-/*   Updated: 2021/07/25 13:45:00 by fcaquard         ###   ########.fr       */
+/*   Updated: 2021/07/25 14:10:13 by fcaquard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,7 @@ static void	ft_hexadecimal_pointer(va_list args, size_t **count)
 	base = "0123456789abcdef";
 	p = (unsigned long long)va_arg(args, void *);
 	if (!p)
-	{
-		**count += ft_putstr("(nil)");
-		return ;
-	}
-	if (p == 0)
-		**count += ft_putchar('0');
+		**count += ft_putstr("0x0");
 	else
 	{
 		**count += ft_putstr("0x");
