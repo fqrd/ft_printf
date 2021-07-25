@@ -6,7 +6,7 @@
 /*   By: fcaquard <fcaquard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/20 22:26:40 by fcaquard          #+#    #+#             */
-/*   Updated: 2021/07/20 22:27:16 by fcaquard         ###   ########.fr       */
+/*   Updated: 2021/07/25 14:20:43 by fcaquard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ size_t	ft_strlen(const char *str)
 	return (index);
 }
 
-int	ft_putchar(char c)
+int	ft_putchar(unsigned char c)
 {
 	return (write (1, &c, 1));
 }
