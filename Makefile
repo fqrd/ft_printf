@@ -6,7 +6,7 @@
 #    By: fcaquard <fcaquard@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/18 16:59:51 by fcaquard          #+#    #+#              #
-#    Updated: 2021/07/20 22:40:12 by fcaquard         ###   ########.fr        #
+#    Updated: 2021/07/27 15:19:48 by fcaquard         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ NAME = libftprintf.a
 SRCMANDATORY =			\
 	ft_printf.c			\
 	ft_printf_utils.c	\
-	ft_printf_csdiXx.c	\
+	ft_printf_csdiuXx.c	\
 
 MANDATORY = $(SRCMANDATORY:.c=.o)
 
